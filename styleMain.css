@@ -126,4 +126,5 @@ body {
   }
   to {
     transform: rotateZ(360deg);
-  
+  }
+}
