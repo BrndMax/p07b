@@ -54,11 +54,12 @@ body {
     margin-bottom: 3%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
+    justify-content: space-evenly;  
   }
   #rotatingGifContainer {
     display: flex;
     text-align: center;
+    align-items: center;
     margin-top: 5% auto;
   }
   
@@ -78,6 +79,7 @@ body {
 .container2 {
   display: flex;
   text-align: center;
+  align-items: center;
   justify-content: center;
   width: 187px; 
   height: 256px; 
