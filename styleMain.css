@@ -35,7 +35,28 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
+  .Inzucht {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #f2f2f2;
+    text-align: right;
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    left: 5%;
+    line-height: 1.5;
+  }
+
+  .187 {
+    margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	flex-direction: column;
+	justify-content: space-evenly;  
+  }
   #rotatingGifContainer {
+    display: flex;
     text-align: center;
     margin-top: 5% auto;
   }
@@ -52,21 +73,12 @@ body {
       transform: rotate(360deg);
     }
   }
-  .Inzucht {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    color: #f2f2f2;
-    text-align: right;
-    position: absolute;
-    top: 7%;
-    right: 2%;
-    left: 5%;
-    line-height: 1.5;
-  }
+
 
 .container2 {
-  width: 187px; /* Anpassen der Größe des Containers nach Bedarf */
-  height: 256px; /* Anpassen der Größe des Containers nach Bedarf */
+  display: flex;
+  width: 187px; 
+  height: 256px; 
   position: relative;
 }
 
