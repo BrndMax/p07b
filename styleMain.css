@@ -63,3 +63,26 @@ body {
     left: 5%;
     line-height: 1.5;
   }
+
+.container2 {
+  width: 187px; /* Anpassen der Größe des Containers nach Bedarf */
+  height: 256px; /* Anpassen der Größe des Containers nach Bedarf */
+  position: relative;
+}
+
+.rotating-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: rotateImage 5s linear infinite; /* Dauer und Art der Animation anpassen */
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
