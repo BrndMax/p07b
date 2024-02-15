@@ -110,20 +110,5 @@ body {
     width: 200px; 
     height: 300px; 
     position: relative;
-    margin: 5% auto; 
-}
-.rotating-image2{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    animation: rotateImage 0.5s linear infinite;
-}
-
-@keyframes rotateImage2 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    margin: 7% auto; 
 }
