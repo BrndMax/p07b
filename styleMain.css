@@ -103,3 +103,29 @@ body {
   }
 }
 
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 187px; 
+    height: 256px; 
+    position: relative;
+    margin: 5% auto; 
+}
+
+.rotating-image2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: rotateImage 2s linear infinite;
+}
+
+@keyframes rotateImage2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
