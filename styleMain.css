@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap);
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  #ipv4Output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  #copyButton {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #rotatingGifContainer {
+    text-align: center;
+    margin-top: 2% auto;
+  }
+  
+  #rotatingGif {
+    animation: rotateRightUp 4s linear infinite;
+  }
+  
+  @keyframes rotateRightUp {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .Inzucht {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    line-height: 1.5;
+  }
