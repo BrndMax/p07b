@@ -92,15 +92,14 @@ body {
     height: 100%;
     position: absolute;
     animation: rotateImage 5s linear infinite;
-    animation-direction: alternate-reverse;
 }
 
 @keyframes rotateImage {
   from {
-    transform: rotateZ(0deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotateZ(-360deg);
+    transform: rotate(-360deg);
   }
 }
 
