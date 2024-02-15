@@ -79,12 +79,12 @@ body {
 
 .container2 {
     display: flex;
+    margin: 5% auto;
     justify-content: center;
     align-items: center;
     width: 187px; 
     height: 256px; 
     position: relative;
-    margin: 5% auto;
 }
 
 .rotating-image {
