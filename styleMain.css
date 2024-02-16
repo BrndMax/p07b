@@ -25,7 +25,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  #copyButton {
+  .defaultButton {
     display: block;
     margin-top: 10px;
     padding: 8px 16px;
@@ -35,7 +35,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  .defaultButton {
+  #copyButton {
     display: block;
     margin-top: 10px;
     padding: 8px 16px;
