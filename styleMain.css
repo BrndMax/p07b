@@ -5,6 +5,46 @@
     margin: 0;
     padding: 0;
   }
+
+header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      max-height: 40px;
+    }
+
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+.bild-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .bild-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
   .container {
     max-width: 600px;
     margin: 5% auto;
