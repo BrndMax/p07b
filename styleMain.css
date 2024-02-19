@@ -116,9 +116,8 @@
 .container3 {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    width: 150px; 
-    height: 170.5px; 
+    align-items: center;
+    height: 200px; 
     position: relative;
     margin-top: 100px;
     margin: 5% auto; 
