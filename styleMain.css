@@ -75,7 +75,7 @@
   
   #rotatingGif {
     align-items: center;
-    animation: rotateRightUp 4s linear infinite;
+    animation: rotateRightUp 3.95s linear infinite;
   }
   
   @keyframes rotateRightUp {
