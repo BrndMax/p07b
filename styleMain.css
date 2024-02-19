@@ -13,14 +13,11 @@ header {
       position: fixed;
       top: 0;
       left: 0;
+      max-height: 10%;
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-
-    header img {
-      max-height: 40px;
     }
 
     nav {
@@ -30,8 +27,14 @@ header {
     nav a {
       color: white;
       text-decoration: none;
-      margin-left: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
     }
+
+   nav a:hover {
+    background-color: #222;
+   }
 
 .bild-container {
       display: grid;
