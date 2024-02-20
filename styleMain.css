@@ -8,6 +8,28 @@ body {
   z-index: -10;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+	width: 1.5vh;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 255, 208, 0.7);
+	border-radius: 6px;
+	-webkit-transition: all 1.5s ease 0s;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 255, 208, 1);
+}
+
+html::-webkit-scrollbar-track {
+	background-color: rgba(14, 19, 31);
+}
+
 header {
   display: flex;
   top: 0px !important;
