@@ -13,27 +13,29 @@
 </head>
 <body onload="domainToIPv4()">
 <header>
-  <div>
-    <img src="Sources/Images/logo_darkMode.png" alt="Logo">
-  </div>
+  <img src="Sources/Images/logo_darkMode.png" alt="Logo">
   <nav>
-    <a href="#server">Server</a>
-    <a href="#memes">Memes</a>
-    <a href="#info">Info</a>
+    <a href="">Server</a>
+    <a href="memes.html">Memes</a>
+    <a href="info.html">Info</a>
   </nav>
 </header>
-<div class="container">
-  <h1>IPv4 des Servers:</h1>
-  <div id="ipv4Output"></div>
-  <button id="copyButton">IPv4 kopieren</button>
-  <br>
-  <center><a class="defaultButton" href="https://discord.com/invite/BpgKKYuqpH">Discord</a></center>
-  <center><a class="defaultButton" href="https://p07b.de/memes.html">Memes</a></center>
-</div>
-<div class="Inzucht">
-  <div>Ich habe Inzucht betrieben (in meinem Abi)</div>
-  <div>                ~Frau Bing</div>
-</div>
+<main>
+  <img class="indexBanner" src="Sources/Images/indexBanner.jpg">
+  <div class="container">
+    <div class="flexContainer">
+      <div class="ipGrabber">
+        <h1>IPv4 des Minecraft-Servers:</h1>
+        <div id="ipv4Output"></div>
+        <button id="copyButton">IPv4 kopieren</button>
+      </div>
+      <article class="indexArticle">
+        <h1>Minecraft Server:</h1>
+        <p>Der Server ist unter der Adresse mc.p07b.de oder der oben zu findenden IPv4 zu erreichen. Am Spawn befindet sich eine geschützte Insel, welche als Schutzzone dient. Auf dieser Insel ist es durch das Drücken von <italic>'F'</italic> eine temporäre Elytra, sowie einen Boost zu bekommen, um die Insel zu verlassen. Allerdings brauchen wir, um euch whitelisten zu können euren ingame Nickname. Auf dem Discord befindet sich im Kanal #minecraft ein Thread "whitelist". Dort können Nicknames geposted werden, die auf die Whitelist aufgenommen werden sollen.</p>
+      </article>
+    </div>
+  </div>  
+</main>
 
 <script>
   function domainToIPv4() {
