@@ -134,5 +134,12 @@ main {
 
 .memeContainer {
   display: grid;
-  grid-tepmlate-columns: auto auto auto auto;
+  grid-tepmlate-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.memeContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
