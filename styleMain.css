@@ -131,3 +131,8 @@ main {
   text-align: center;
   font-size: 1cm;
 }
+
+.memeContainer {
+  display: grid;
+  grid-tepmlate-columns: auto auto auto auto;
+}
