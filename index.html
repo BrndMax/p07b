@@ -11,7 +11,7 @@
 
 </style>
 </head>
-<body onload="domainToIPv4()">
+<body onload="domainToIPv4()" onload="positionContent()">
 <header>
   <img src="Sources/Images/logo_darkMode.png" alt="Logo">
   <nav>
@@ -21,8 +21,8 @@
   </nav>
 </header>
 <main>
-  <img class="indexBanner" src="Sources/Images/indexBanner.jpg">
-  <div class="container">
+  <img class="indexBanner" id="indexBanner" src="Sources/Images/indexBanner.jpg">
+  <div class="container" id="contentContainer">
     <div class="flexContainer">
       <div class="ipGrabber">
         <h1>IPv4 des Minecraft-Servers:</h1>
@@ -36,7 +36,14 @@
     </div>
   </div>  
 </main>
-
+</body>
+<script>
+  function positionContent() {
+    const bannerHeight = document.getElementById("indexBanner").clientHeight;
+    document.getElementById("contentContainer").style.top = bannerHeight;
+  }
+    
+</script>
 <script>
   function domainToIPv4() {
     var domain = "t5kalqyeksyh1ywy.myfritz.net";
@@ -71,5 +78,4 @@
     alert("IPv4 wurde in die Zwischenablage kopiert: ");
   }
 </script>
-</body>
 </html>
