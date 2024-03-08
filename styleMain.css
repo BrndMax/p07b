@@ -146,7 +146,7 @@ main {
   align-items: top;
 }
 
-.memeContainer img {
+.memeContainerColumn img {
   display: block;
   width: 100%;
   padding: 5px;
