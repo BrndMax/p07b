@@ -146,7 +146,8 @@ main {
 
 .memeContainerColumn img {
   display: block;
-  width: calc(100% - 10px);
+  box-sizing: borde-box;
+  width: 100%;
   padding: 5px;
   height: auto;
 }
