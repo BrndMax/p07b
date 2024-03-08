@@ -133,7 +133,7 @@ main {
 
 .memeContainerRow {
   display: flex;
-  align-items: start;
+  flex-direction: row;
   border: solid 5px #333;
   width: 100%;
 }
