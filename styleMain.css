@@ -133,7 +133,6 @@ main {
 
 .memeContainerRow {
   display: flex;
-  flex-direction: row;
   align-items: start;
   border: solid 5px #333;
   width: 100%;
@@ -143,7 +142,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 25%;
-  align-items: top;
+  align-items: start;
 }
 
 .memeContainerColumn img {
