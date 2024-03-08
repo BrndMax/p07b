@@ -134,7 +134,6 @@ main {
 .memeContainerRow {
   display: flex;
   flex-direction: row;
-  border: solid 5px #333;
   width: 100%;
 }
 
