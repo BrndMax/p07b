@@ -135,7 +135,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: start;
-  margin: 5px;
+  border: solid 5px #333;
   width: 100%;
 }
 
