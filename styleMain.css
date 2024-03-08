@@ -143,6 +143,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 25%;
+  align-items: top;
 }
 
 .memeContainer img {
