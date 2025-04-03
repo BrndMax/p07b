@@ -141,7 +141,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 25%;
-  align-items: start;
+  align-items: stretch;
+  height: 100%;
 }
 
 .memeContainerColumn img {
