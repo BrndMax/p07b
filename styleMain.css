@@ -132,15 +132,15 @@ main {
 }
 
 .memeContainerRow {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  display: flex; /* Flexbox aktivieren für die Zeile */
+  justify-content: space-between; /* Zwischen den Spalten gleichmäßig Abstand */
 }
 
 .memeContainerColumn {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  gap: 10px;
   align-items: stretch;
   height: 100%;
 }
@@ -151,8 +151,6 @@ main {
   width: 100%;
   padding: 5px;
   height: auto;
-}
-
-img {
   border: 1px solid black;
 }
+
