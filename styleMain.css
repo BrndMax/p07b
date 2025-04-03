@@ -150,6 +150,8 @@ main {
   width: 100%;
   padding: 5px;
   height: auto;
-  border: 1px solid black;
 }
 
+img {
+  border: 1px solid black;
+}
